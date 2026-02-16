@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div>
             <h3 className="font-heading font-bold text-xl mb-4">
-              <span className="text-primary">Rubber</span>Tech
+              <span className="text-primary">Almeida & Werneck</span>
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Soluções técnicas em borracha e silicone para a indústria.
+              Soluções técnicas em borracha, silicone e PU para a indústria.
               Qualidade, precisão e compromisso com a excelência.
             </p>
           </div>
@@ -36,22 +36,22 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Phone size={16} className="text-primary" />
-                (11) 1234-5678
+                (41) 3226-9052
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-primary" />
-                contato@rubbertech.com.br
+                atendimento@almeidawerneck.com.br
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} className="text-primary" />
-                São Paulo, SP — Brasil
+                Curitiba, PR — Brasil
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/30 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} RubberTech. Todos os direitos reservados.
+          © {new Date().getFullYear()} Almeida & Werneck Ltda. Todos os direitos reservados.
         </div>
       </div>
     </footer>

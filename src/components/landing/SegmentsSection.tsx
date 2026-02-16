@@ -1,12 +1,13 @@
-import { Car, Wheat, Building2, Factory, Zap } from "lucide-react";
+import { Car, Wrench, Shapes, Factory, Truck, Armchair } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const segments = [
   { icon: Car, title: "Automotiva" },
-  { icon: Wheat, title: "Agronegócio" },
-  { icon: Building2, title: "Construção Civil" },
-  { icon: Factory, title: "Equipamentos Industriais" },
-  { icon: Zap, title: "Energia" },
+  { icon: Armchair, title: "Moveleira" },
+  { icon: Wrench, title: "Coxins" },
+  { icon: Factory, title: "Industrial" },
+  { icon: Truck, title: "Logística" },
+  { icon: Shapes, title: "Diversos" },
 ];
 
 const SegmentsSection = () => {

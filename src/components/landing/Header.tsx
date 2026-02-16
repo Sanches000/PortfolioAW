@@ -27,7 +27,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="font-heading font-bold text-xl">
-          <span className="text-primary">Rubber</span>Tech
+          <span className="text-primary">Almeida & Werneck</span>
         </a>
 
         {/* Desktop nav */}
@@ -41,7 +41,9 @@ const Header = () => {
               {label}
             </a>
           ))}
-          <Button size="sm">Orçamento</Button>
+          <a href="https://api.whatsapp.com/send/?phone=5541999443014&text=Olá%21+Gostaria+de+realizar+um+orçamento+para+o+meu+projeto.&type=phone_number&app_absent=0">
+            <Button size="sm">Orçamento</Button>
+          </a>
         </nav>
 
         {/* Mobile toggle */}
@@ -64,7 +66,9 @@ const Header = () => {
                 {label}
               </a>
             ))}
-            <Button size="sm" className="w-fit mt-2">Orçamento</Button>
+            <a href="https://api.whatsapp.com/send/?phone=5541999443014&text=Olá%21+Gostaria+de+realizar+um+orçamento+para+o+meu+projeto.&type=phone_number&app_absent=0">
+              <Button size="sm" className="w-fit mt-2">Orçamento</Button>
+            </a>
           </nav>
         </div>
       )}

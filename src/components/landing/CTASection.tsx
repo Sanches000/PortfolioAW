@@ -17,10 +17,12 @@ const CTASection = () => {
           Entre em contato com nossa equipe técnica e receba um orçamento personalizado
           para o seu projeto industrial.
         </p>
-        <Button size="lg" className="text-base px-10 py-7 font-bold text-lg">
-          <FileText className="mr-2" size={22} />
-          Solicitar Orçamento Agora
-        </Button>
+        <a href="https://api.whatsapp.com/send/?phone=5541999443014&text=Olá%21+Gostaria+de+realizar+um+orçamento+para+o+meu+projeto.&type=phone_number&app_absent=0">
+          <Button size="lg" className="text-base px-10 py-7 font-bold text-lg">
+            <FileText className="mr-2" size={22} />
+              Solicitar Orçamento Agora
+          </Button>  
+        </a>
       </div>
     </section>
   );

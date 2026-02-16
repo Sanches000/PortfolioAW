@@ -26,12 +26,6 @@ const HeroSection = () => {
       <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-primary/0 via-primary/40 to-primary/0 z-10" />
 
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
-        <div className="inline-block mb-6 px-4 py-1.5 border border-primary/30 rounded-full">
-          <span className="text-sm font-medium text-primary tracking-wider uppercase">
-            Engenharia de Precisão
-          </span>
-        </div>
-
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6">
           Soluções Técnicas em{" "}
           <span className="text-gradient">Borracha e Silicone</span>{" "}
@@ -44,14 +38,16 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-base px-8 py-6 font-semibold">
-            <FileText className="mr-2" size={20} />
-            Solicitar Orçamento
-          </Button>
-          <Button size="lg" variant="outline" className="text-base px-8 py-6 font-semibold border-primary/30 hover:bg-primary/10">
-            <MessageSquare className="mr-2" size={20} />
-            Falar no WhatsApp
-          </Button>
+          <a href="https://api.whatsapp.com/send/?phone=5541999443014&text=Olá%21+Gostaria+de+realizar+um+orçamento+para+o+meu+projeto.&type=phone_number&app_absent=0">
+            <Button size="lg" className="text-base px-8 py-6 font-semibold">
+              <FileText className="mr-2" size={20} />
+              Solicitar Orçamento
+            </Button>
+            <Button size="lg" variant="outline" className="text-base px-8 py-6 font-semibold border-primary/30 hover:bg-primary/10" >
+              <MessageSquare className="mr-2" size={20} />
+              Falar no WhatsApp
+            </Button>
+          </a>
         </div>
       </div>
 

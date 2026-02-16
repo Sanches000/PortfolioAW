@@ -3,10 +3,8 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 import { useParallax } from "@/hooks/use-parallax";
 
 const stats = [
-  { value: 25, suffix: "+", label: "Anos de Experiência" },
-  { value: 3000, suffix: "+", label: "Projetos Entregues" },
-  { value: 500, suffix: "+", label: "Clientes Ativos" },
-  { value: 27, suffix: "", label: "Estados Atendidos" },
+  { value: 20, suffix: "+", label: "Anos de Experiência" },
+  { value: 10000, suffix: "+", label: "Projetos Entregues" },
 ];
 
 function AnimatedCounter({ target, suffix, active }: { target: number; suffix: string; active: boolean }) {
