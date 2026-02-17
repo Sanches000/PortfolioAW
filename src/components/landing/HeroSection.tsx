@@ -43,6 +43,8 @@ const HeroSection = () => {
               <FileText className="mr-2" size={20} />
               Solicitar Orçamento
             </Button>
+          </a>  
+          <a href="https://api.whatsapp.com/send/?phone=5541999443014&text=Olá%21+Gostaria+de+realizar+um+orçamento+para+o+meu+projeto.&type=phone_number&app_absent=0">  
             <Button size="lg" variant="outline" className="text-base px-8 py-6 font-semibold border-primary/30 hover:bg-primary/10" >
               <MessageSquare className="mr-2" size={20} />
               Falar no WhatsApp
